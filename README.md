@@ -5,7 +5,7 @@ opencc wrapper for Golang
 
 ### Install
 
-Run 'go get github.com/stevenyao/go-opencc'
+Run 'go get github.com/azhao1981/go-opencc'
 
 ### Example
 
@@ -13,7 +13,7 @@ Run 'go get github.com/stevenyao/go-opencc'
 package main
 
 import "fmt"
-import "github.com/stevenyao/go-opencc"
+import "github.com/azhao1981/go-opencc"
 
 const (
 	input = "中国鼠标软件打印机"

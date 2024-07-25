@@ -1,10 +1,13 @@
 package main
 
-import "fmt"
-import "github.com/stevenyao/go-opencc"
+import (
+	"fmt"
+
+	"github.com/azhao1981/go-opencc"
+)
 
 const (
-	input = "中国鼠标软件打印机"
+	input      = "中国鼠标软件打印机"
 	config_s2t = "/usr/share/opencc/s2t.json"
 	config_t2s = "/usr/share/opencc/t2s.json"
 )
@@ -27,5 +30,5 @@ func main() {
 		retChan <- output
 	})
 
-	fmt.Println(<- retChan)
+	fmt.Println(<-retChan)
 }
